@@ -1,23 +1,38 @@
-# ProfileUI
+# ProfileUI – Activity 03
 
-This is an Android application that displays a user profile screen. It was created as part of Act03 for the course.
+**Name:** Gerald Mamasalanang  
+**Section:** DIT 3-1  
+**Activity Title:** Profile UI Design  
+**Repository Name:** DIT3-1-GeraldMamasalanang-Act03  
 
-## Design Choices
+---
 
-*   **Layout:** I used `ConstraintLayout` to create a flexible and responsive layout that adapts to different screen sizes and orientations. This allows for the UI elements to be positioned relative to each other and the parent container, which helps to maintain a consistent look and feel across devices.
-*   **Colors:** The color scheme is simple and clean, with a white background and black text for maximum contrast and readability. The edit button has a blue background to make it stand out as a clickable element.
-*   **Fonts:** I used the default system font for the text, which is a safe choice that is easy to read. I also used different font sizes and weights to create a visual hierarchy and draw attention to important information, like the user's name.
+## Project Description
+This project is an Android app that displays a simple **Profile Screen** using a clean and responsive UI design.  
+The layout includes:
+- A profile picture (ImageView)  
+- The user’s name (TextView)  
+- A short bio or description (TextView)  
+- An edit button (Button)  
 
-## User-Friendliness and Accessibility
+The goal is to apply good UI/UX design principles using **ConstraintLayout**, proper spacing, readable text, and consistent styling.
 
-*   **Readability:** I used `sp` units for the text to ensure that it scales correctly with the user's font size preferences. I also made sure that the text has a high contrast ratio with the background to make it easy to read for people with visual impairments.
-*   **Usability:** The layout is simple and intuitive, with a clear visual hierarchy. The edit button is clearly labeled and easy to find, which makes it easy for users to understand how to interact with the screen.
-*   **Accessibility:** The profile picture has a content description that describes what it is, which is important for users who are blind or have low vision. This allows them to understand the content of the image, even if they can't see it.
+---
 
-## Future Improvements
+## Reflection
 
-*   **Add a placeholder image for the profile picture:** This would be displayed if the user has not yet uploaded a profile picture. This would make the screen look more complete and professional.
-*   **Add a loading indicator:** This would be displayed while the profile information is being loaded from a remote server. This would provide feedback to the user and let them know that the app is working.
-*   **Implement the edit button functionality:** This would allow users to edit their profile information. This would make the app more interactive and useful.
-*   **Add more profile information:** I could add more fields to the profile screen, such as the user's email address, phone number, and social media links. This would make the profile more complete and informative.
-*   **Use a more visually appealing design:** I could use a more custom design for the profile screen, with a more unique color scheme, font, and layout. This would make the app more visually appealing and engaging.
+**1. What design choices did you make (colors, fonts, layout)?**  
+I used a light background with dark text for better readability. The name text is bold and centered, while the bio text is smaller and has a softer tone. The layout uses **ConstraintLayout** to keep everything aligned properly, and the button color matches the app’s accent theme.
+
+**2. How did you ensure the screen is user-friendly and accessible?**  
+I used proper text sizing (`sp`) and spacing (`dp`) for consistent scaling. I also made sure there’s enough contrast between text and background. The layout stays neat and readable in both portrait and landscape mode.
+
+**3. What would you improve if this were a real app?**  
+If this were a real app, I’d make the Edit button functional, allow users to update their photo and bio, and add dark mode support for better accessibility.
+
+---
+
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone git@github.com:mamasalanang-gerald/DIT3-1-GeraldMamasalanang-Act03.git
